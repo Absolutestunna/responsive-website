@@ -1,0 +1,37 @@
+html {
+  background-color: #F6F4F1 !important;
+  font-family: 'Abel',sans-serif;
+  color: #846C63; }
+
+.nav-white {
+  background-color: white; }
+  .nav-white .nav-options li a {
+    color: #88AAA9; }
+  .nav-white .menu-icon {
+    color: #2D5B60; }
+  .nav-white .brand-logo {
+    color: #846C63; }
+
+.coffee-info {
+  margin-top: 19px; }
+  .coffee-info a {
+    margin: 1.5px;
+    background-color: #88AAA9;
+    color: white !important;
+    font-family: 'Abel',sans-serif;
+    font-weight: 100; }
+  .coffee-info a:hover {
+    background-color: #E48A1A; }
+
+.coffee-contents section {
+  margin-top: 58px; }
+.coffee-contents .title {
+  padding-left: 10px;
+  margin: 0; }
+
+footer {
+  font-weight: 100; }
+  footer .footer-title {
+    font-weight: 100; }
+
+/*# sourceMappingURL=main.css.map */

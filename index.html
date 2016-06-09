@@ -7,14 +7,20 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <div class="navbar-fixed">
-        <nav>
+        <nav class="nav-white">
           <div class="container">
             <a href="#!" class="brand-logo">Logo</a>
-            <ul class="right hide-on-med-and-down right-align" id="mobile-demo">
+            <a href="#" data-activates="mobile-demo" class="button-collapse menu-icon"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down right-align nav-options">
+              <li><a href="#">Music</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Porn</a></li>
+            </ul>
+            <ul class="mobile side-nav" id="mobile-demo">
               <li><a href="#">Music</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Porn</a></li>
@@ -25,7 +31,7 @@
 
     <!--Coffee addresses and roast types-->
     <div class="container">
-      <ul class="collapsible" data-collapsible="accordion">
+      <ul class="collapsible coffee-info" data-collapsible="accordion">
         <li>
           <div class="collapsible-header"><i class="material-icons">room</i>Select a city</div>
           <div class="collapsible-body">
@@ -58,11 +64,11 @@
       </ul>
     </div>
 
-    <div class="container">
+    <div class="container coffee-contents">
       <section>
         <div class="row brooklyn">
-          <p className="title">Brooklyn</p>
-          <div class="col s4">
+          <p class="title">Brooklyn</p>
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/04/28/15/02/cup-1359012_640.jpg">
@@ -74,7 +80,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/04/28/15/02/cup-1359012_640.jpg">
@@ -86,7 +92,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/04/28/15/02/cup-1359012_640.jpg">
@@ -98,7 +104,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/04/28/15/02/cup-1359012_640.jpg">
@@ -110,7 +116,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/04/28/15/02/cup-1359012_640.jpg">
@@ -122,7 +128,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/04/28/15/02/cup-1359012_640.jpg">
@@ -139,8 +145,8 @@
 
       <section>
         <div class="row greenville">
-          <p className="title">Greenville</p>
-          <div class="col s4">
+          <p class="title">Greenville</p>
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/06/02/20/32/coffee-1432033_640.jpg">
@@ -152,7 +158,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/06/02/20/32/coffee-1432033_640.jpg">
@@ -164,7 +170,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/06/02/20/32/coffee-1432033_640.jpg">
@@ -176,7 +182,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/06/02/20/32/coffee-1432033_640.jpg">
@@ -188,10 +194,10 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
-                <img src="https://pixabay.com/static/uploads/photo/2016/06/02/20/32/coffee-1432033_640.jpg">
+                <img src="https://pixabay.com/static/uploads/photo/2016/04/11/20/12/coffee-1322869_640.jpg">
               </div>
               <div class="card-content">
                 <p>Paris</p>
@@ -200,7 +206,7 @@
             </div>
           </div>
 
-          <div class="col s4">
+          <div class="col s12 m4 l4">
             <div class="card">
               <div class="card-image">
                 <img src="https://pixabay.com/static/uploads/photo/2016/06/02/20/32/coffee-1432033_640.jpg">
@@ -221,7 +227,7 @@
         <div class="container">
             <div class="row">
               <div class="col m3">
-                <h5>ABOUT US</h5>
+                <h5 class='footer-title'>ABOUT US</h5>
                 <p>
                   A curated list of all coffee shops in the upstate
                 </p>
@@ -232,7 +238,7 @@
               </div>
 
               <div class="col m3">
-                <h5>CATEGORIES</h5>
+                <h5 class="footer-title">CATEGORIES</h5>
                 <ul>
                   <li>Greenville</li>
                   <li>Greenville</li>
@@ -245,17 +251,16 @@
               </div>
 
               <div class="col m3">
-                <h5>Friends</h5>
+                <h5 class='footer-title'>Friends</h5>
                   <ul>
                     <li>Greenville Chambers of Coffee</li>
                     <li>Brooklyn Chambers of Coffee</li>
                     <li>Brooklyn Chambers of Coffee</li>
-
                   </ul>
               </div>
 
               <div class="col m3">
-                <h5>Download</h5>
+                <h5 class='footer-title'>Download</h5>
               </div>
             </div>
 
@@ -266,5 +271,8 @@
     <!--Import jQuery before materialize.js-->
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+     <script type="text/javascript" src="./master.js">
+
+     </script>
   </body>
 </html>

@@ -1,0 +1,58 @@
+html {
+  background-color: #F6F4F1!important;
+  font-family: 'Abel',sans-serif;
+  color: #846C63;
+}
+
+
+// nav
+.nav-white {
+  background-color: white;
+  .nav-options {
+    li a {
+      color: #88AAA9;
+    }
+  }
+  .menu-icon {
+    color: #2D5B60;
+  }
+  .brand-logo {
+    color: #846C63;
+  }
+}
+
+//accordion
+
+.coffee-info {
+  margin-top: 19px;
+  a {
+    margin: 1.5px;
+    background-color: #88AAA9;
+    color: white!important;
+    font-family: 'Abel',sans-serif;
+    font-weight: 100;
+  }
+  a:hover {
+    background-color: #E48A1A;
+
+  }
+}
+
+.coffee-contents {
+  section {
+    margin-top: 58px;
+  }
+  .title {
+    padding-left: 10px;
+    margin: 0;
+  }
+}
+
+//footer
+
+footer {
+  font-weight: 100;
+  .footer-title {
+    font-weight: 100;
+  }
+}

@@ -5,6 +5,12 @@
 .vid-container {
   margin-top: 18px; }
 
+#about #questions a {
+  color: #88AAA9 !important; }
+
+html {
+  font-family: 'Abel',sans-serif; }
+
 html {
   background-color: #F6F4F1 !important;
   font-family: 'Abel',sans-serif;

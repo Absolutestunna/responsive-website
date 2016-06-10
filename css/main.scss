@@ -51,8 +51,29 @@ html {
 //footer
 
 footer {
+  background-color: rgba(189,177,173,0.1)!important;
   font-weight: 100;
   .footer-title {
+    font-weight: 100;
+  }
+  .description {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  span {
+    font-size: 12.2px;
+    a {
+      color: #88AAA9!important;
+    }
+  }
+  .cat-list {
+    color: #88AAA9!important;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .partner-list {
+    color: #88AAA9!important;
+    font-size: 15px;
     font-weight: 100;
   }
 }

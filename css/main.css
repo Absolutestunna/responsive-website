@@ -30,8 +30,24 @@ html {
   margin: 0; }
 
 footer {
+  background-color: rgba(189, 177, 173, 0.1) !important;
   font-weight: 100; }
   footer .footer-title {
+    font-weight: 100; }
+  footer .description {
+    font-size: 13px;
+    margin-bottom: 30px; }
+  footer span {
+    font-size: 12.2px; }
+    footer span a {
+      color: #88AAA9 !important; }
+  footer .cat-list {
+    color: #88AAA9 !important;
+    font-size: 15px;
+    font-weight: 100; }
+  footer .partner-list {
+    color: #88AAA9 !important;
+    font-size: 15px;
     font-weight: 100; }
 
 /*# sourceMappingURL=main.css.map */
